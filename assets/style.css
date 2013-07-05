@@ -1,0 +1,14 @@
+body {
+    margin-bottom: 1em;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    text-align: center;
+    border-top: 1px solid #444;
+    background: #eee;
+    line-height: 2em;
+}
