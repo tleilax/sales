@@ -1,7 +1,8 @@
 <?php
-    $tmp  = file_get_contents('sales.json');
-    $json = json_decode($tmp, true);
-    $content = $json['Serien'][0]['title'];
+    require 'includes/renderer.php';
 
-    require 'views/layout.php';
+    $tmp  = file_get_contents('sales.json');
+    $stash = json_decode($tmp, true);
+
+    echo render('list', compact('stash'), 'layout');
 

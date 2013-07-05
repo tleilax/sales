@@ -4,6 +4,6 @@
     <title>tleilax' sales</title>
 </head>
 <body>
-    <?= $content ?>
+    <?= $CONTENT ?>
 </body>
 </html>
